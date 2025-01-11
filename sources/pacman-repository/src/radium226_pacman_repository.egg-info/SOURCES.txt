@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/radium226/pacman_repo/__init__.py
+src/radium226_pacman_repository.egg-info/PKG-INFO
+src/radium226_pacman_repository.egg-info/SOURCES.txt
+src/radium226_pacman_repository.egg-info/dependency_links.txt
+src/radium226_pacman_repository.egg-info/requires.txt
+src/radium226_pacman_repository.egg-info/top_level.txt

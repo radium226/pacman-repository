@@ -1,0 +1,38 @@
+pkgname=example-2
+pkgver=1.2.3
+pkgrel=1
+pkgdesc="A subprocess caching utility"
+arch=('x86_64')
+url="https://www.example.com/"
+license=('MIT')
+makedepends=()
+source=()
+sha256sums=()
+
+depends=(
+    "example-1"
+)
+
+prepare() {
+	cd "$srcdir/$pkgname-$pkgver"
+
+	:
+}
+
+build() {
+	cd "$srcdir/$pkgname-$pkgver"
+
+	:
+}
+
+check() {
+	cd "$srcdir/$pkgname-$pkgver"
+
+	:
+}
+
+package() {
+	cd "$srcdir/$pkgname-$pkgver"
+
+	:
+}

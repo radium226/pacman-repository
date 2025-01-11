@@ -1,0 +1,19 @@
+[project]
+name = "radium226-pacman-repository"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "funcy>=2.0",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.14.1",
+    "pytest>=8.3.4",
+    "ruff>=0.8.6",
+]
+
+[tool.uv]
+package = true
