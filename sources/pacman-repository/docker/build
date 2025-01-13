@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+set -euEo pipefail
+
+main()
+{
+    fakeroot -- pacman -Sy
+    fakeroot -- pacman -S --root "./rootfs" base
+}
+
+main "${@}"

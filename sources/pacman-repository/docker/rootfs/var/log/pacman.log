@@ -1,0 +1,1 @@
+[2025-01-13T00:10:53+0100] [PACMAN] Running 'pacman -S --root ./rootfs base'

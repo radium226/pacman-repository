@@ -2,6 +2,9 @@ Metadata-Version: 2.2
 Name: radium226-pacman-repository
 Version: 0.1.0
 Summary: Add your description here
-Requires-Python: >=3.11
+Requires-Python: >=3.12
 Description-Content-Type: text/markdown
+Requires-Dist: click>=8.1.8
 Requires-Dist: funcy>=2.0
+Requires-Dist: networkx>=3.4.2
+Requires-Dist: pydot>=3.0.4
